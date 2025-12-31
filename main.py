@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from config.MovList import title_list
 
-FASTAPI_URL = "http://127.0.0.1:8000"
+FASTAPI_URL = "https://movie-recommender-api-pud9.onrender.com"
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
