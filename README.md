@@ -60,14 +60,15 @@ cd movie-recommender-fastapi-streamlit
 ``` 
 ### 2️⃣ Code to run
 
-1. 
+1. Run this command in VS code terminal
 ```bash
 uvicorn app:app --reload 
 ```
 
 2. Copy the url(local).
 3. Paste it into the "FASTAPI_URL" present in "main.py" then type.
-4. ```bash
+4. Run this command in new terminal
+```bash
 streamlit run main.py
 ```
 
