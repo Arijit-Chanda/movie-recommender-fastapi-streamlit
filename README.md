@@ -57,5 +57,17 @@ Movie Recommender System/
 git lfs install
 git clone https://github.com/Arijit-Chanda/movie-recommender-fastapi-streamlit.git
 cd movie-recommender-fastapi-streamlit
+``` 
+### 2️⃣ Code to run
 
+1. 
+```bash
+uvicorn app:app --reload 
+```
+
+2. Copy the url(local).
+3. Paste it into the "FASTAPI_URL" present in "main.py" then type.
+4. ```bash
+streamlit run main.py
+```
 
